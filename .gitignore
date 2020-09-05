@@ -30,5 +30,4 @@ mvnw.cmd
 ### VS Code ###
 .vscode/
 
-*/target
-
+*/target/
