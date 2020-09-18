@@ -11,5 +11,12 @@
 
     <artifactId>tag-example</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>cn.sliew</groupId>
+            <artifactId>tag-core</artifactId>
+        </dependency>
+    </dependencies>
+
 
 </project>
