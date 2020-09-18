@@ -53,7 +53,7 @@ public class ActivityRule extends Rule {
     static {
         PARSER.declareLong(ActivityRule::setRuleId, ActivityRule.ID_FIELD);
         PARSER.declareLong(ActivityRule::setRuleVersion, ActivityRule.VERSION_FIELD);
-        PARSER.declareObject(ActivityRule::setQuery, ActivityRule.QUERY_FIELD);
+//        PARSER.declareObject(ActivityRule::setQuery, ActivityRule.QUERY_FIELD);
 
         PARSER.declareLong(ActivityRule::setWarmupTime, ActivityRule.WARMUP_TIME_FIELD);
         PARSER.declareLong(ActivityRule::setStartTime, ActivityRule.START_TIME_FIELD);
