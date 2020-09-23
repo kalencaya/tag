@@ -9,6 +9,4 @@ import java.io.Serializable;
 public interface RuleCommand extends ConditionCommand, ToXContent, FromXContent, Serializable {
 
     QueryBuilder toQuery();
-
-    Tag toTag(Item item);
 }

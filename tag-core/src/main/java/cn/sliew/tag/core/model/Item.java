@@ -7,27 +7,7 @@ import java.io.Serializable;
 
 public abstract class Item implements ToXContent, FromXContent, Serializable {
 
-    private Long itemId;
+    public abstract long id();
 
-    private long itemVersion;
-
-
-
-    /* ======================== getter/setter ======================== */
-
-    public Long getItemId() {
-        return itemId;
-    }
-
-    public void setItemId(Long itemId) {
-        this.itemId = itemId;
-    }
-
-    public long getItemVersion() {
-        return itemVersion;
-    }
-
-    public void setItemVersion(long itemVersion) {
-        this.itemVersion = itemVersion;
-    }
+    public abstract long version();
 }

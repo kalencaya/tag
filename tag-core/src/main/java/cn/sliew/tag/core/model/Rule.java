@@ -7,4 +7,7 @@ import java.io.Serializable;
 
 public abstract class Rule implements ToXContent, FromXContent, Serializable {
 
+    public abstract long id();
+
+    public abstract long version();
 }
